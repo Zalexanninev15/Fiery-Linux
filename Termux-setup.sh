@@ -10,7 +10,7 @@ echo "License: GPLv3"
 sleep 5
 echo "Process of installing the usual person's required minimum packages is underway :)"
 echo 3
-pkg install termux-am nala curl wget git micro openssl libqrencode zbar python3 cmake ranger -y && echo "Press 'Allow' in the window that appears" && echo "or type 'Y' if you already have access" && sleep 5
+pkg install termux-am nala curl wget git micro openssl libqrencode zbar python3 cmake ranger -y && apt update && apt upgrade -y && echo "Press 'Allow' in the window that appears" && echo "or type 'Y' if you already have access" && sleep 5
 echo "Process is underway to grant rights to the repository"
 termux-setup-storage
 echo "Applying the recommended settings for ranger..."
