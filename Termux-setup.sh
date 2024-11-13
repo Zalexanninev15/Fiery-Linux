@@ -20,7 +20,7 @@ export VISUAL=micro && export PAGER=more
 echo "Author's personal recommendation is to customize the appearance of Termux 🤩"
 echo "Settings by author: colors - 73, font - 11"
 echo 3
-git clone "https://github.com/Zalexanninev15/termux-style-clone.git" ~/storage/downloads/termux-style cd ~/storage/downloads/termux-style && bash ./install
+git clone "https://github.com/Zalexanninev15/termux-style-clone.git" ~/storage/downloads/termux-style && cd ~/storage/downloads/termux-style && bash ./install
 echo "Removing 'garbage' packages..."
 apt autoremove -y && apt autoclean
 echo "Removing 'Hello-message' in Termux"
