@@ -13,12 +13,12 @@ pkg install termux-am nala curl wget git micro openssl libqrencode zbar python3 
 termux-setup-storage
 sleep 5
 echo "Applying the recommended settings for ranger..."
-git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons && echo "default_linemode devicons" >> $HOME/.config/ranger/rc.conf
+git clone "https://github.com/alexanderjeurissen/ranger_devicons.git" ~/.config/ranger/plugins/ranger_devicons && echo "default_linemode devicons" >> $HOME/.config/ranger/rc.conf
 export VISUAL=micro && export PAGER=more 
 echo "Author's personal recommendation is to customize the appearance of Termux 🤩"
 echo "Settings by author: colors - 73, font - 11"
 echo 4
-git clone https://github.com/Zalexanninev15/termux-style-clone.git ~/storage/downloads/termux-style
+git clone "https://github.com/Zalexanninev15/termux-style-clone.got" ~/storage/downloads/termux-style
 cd termux-style && bash ./install
 echo "Removing 'garbage' packages..."
 apt autoremove -y && apt autoclean
