@@ -1,4 +1,4 @@
-# Awesome Windows Tweaks
+# Awesome Linux Tweaks
 
 [![](https://img.shields.io/badge/platform-Linux-ligthgreen?logo=linux)](https://github.com/Zalexanninev15/awesome-linux-tweaks)
 [![](https://img.shields.io/github/last-commit/Zalexanninev15/awesome-linux-tweaks)](https://github.com/Zalexanninev15/awesome-linux-tweaks/commits/main)
@@ -11,4 +11,4 @@
 
 ## Описание
 
-Невероятно большое количество скриптов, твиков, программ и всего остального для первоначальной настройки Linux (Ubuntu/Debian/Fedora-based) и Termux.
+Скрипты, твики, программы и остальное для первоначальной настройки Linux (Ubuntu/Debian/Fedora-based) и Termux.
