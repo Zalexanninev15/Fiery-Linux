@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-echo "Termux-setup 2024.nov13-fix"
+echo "Termux-setup 2024.nov21f"
 echo "Basic Termux setup for Android 14 and above"
 echo "=> Partially relevant also for Android 12 and 13"
 echo "👇👇👇"
@@ -26,4 +26,4 @@ apt autoremove -y && apt autoclean
 echo "Removing 'Hello-message' in Termux"
 touch ~/.hushlogin
 echo "Done!"
-echo "Run 'termix-style'. Settings by author: colors - 73, font - 11"
+echo "Run 'termix-style'. Settings by author: colors - 73, font - 6"
