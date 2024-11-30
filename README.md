@@ -1,4 +1,4 @@
-# Awesome Linux Tweaks
+# MyPerfectLinux
 
 [![](https://img.shields.io/badge/platform-Linux-ligthgreen?logo=linux)](https://github.com/Zalexanninev15/awesome-linux-tweaks)
 [![](https://img.shields.io/github/last-commit/Zalexanninev15/awesome-linux-tweaks)](https://github.com/Zalexanninev15/awesome-linux-tweaks/commits/main)
