@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-echo "Termux-setup 2024.nov21f"
+echo "Termux-setup 2024.nov30"
 echo "Basic Termux setup for Android 14 and above"
 echo "=> Partially relevant also for Android 12 and 13"
 echo "👇👇👇"
@@ -9,7 +9,7 @@ echo "Copyright (C) 2024-2025 Zalexanninev15"
 echo "License: GPLv3"
 sleep 3
 echo "Process of installing the usual person's required minimum packages is underway :)"
-pkg install termux-am curl wget git micro openssl libqrencode zbar python3 ranger -y && apt install libssh2 && echo "Press 'Allow' in the window that appears" && echo "or type 'Y' if you already have access" && echo "Process is underway to grant rights to the storage (Android)" && sleep 2
+pkg install termux-am curl wget git micro openssl libqrencode zbar python3 ranger bat eza -y && apt install libssh2 && echo "Press 'Allow' in the window that appears" && echo "or type 'Y' if you already have access" && echo "Process is underway to grant rights to the storage (Android)" && sleep 2
 echo "Wait..."
 termux-setup-storage
 sleep 12
