@@ -1,6 +1,7 @@
 # Fiery Linux / Репозиторий
 
 [![](https://img.shields.io/badge/platform-Linux-ligthgreen?logo=linux)](https://github.com/Zalexanninev15/Fiery-Linux)
+[![](https://img.shields.io/badge/written_on-GNU_Bash-%234EAA25.svg?logo=gnubash)](https://github.com/Zalexanninev15/Fiery-Linux)
 [![](https://img.shields.io/github/last-commit/Zalexanninev15/Fiery-Linux)](https://github.com/Zalexanninev15/Fiery-Linux/commits/main)
 [![](https://img.shields.io/github/stars/Zalexanninev15/Fiery-Linux.svg)](https://github.com/Zalexanninev15/Fiery-Linux/stargazers)
 [![](https://img.shields.io/github/forks/Zalexanninev15/Fiery-Linux.svg)](https://github.com/Zalexanninev15/Fiery-Linux/network/members)
