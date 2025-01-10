@@ -1,4 +1,4 @@
-# Fiery Linux / Репозиторий
+# Fiery Linux
 
 [![](https://img.shields.io/badge/platform-Linux-ligthgreen?logo=linux)](https://github.com/Zalexanninev15/Fiery-Linux)
 [![](https://img.shields.io/badge/written_on-GNU_Bash-%234EAA25.svg?logo=gnubash)](https://github.com/Zalexanninev15/Fiery-Linux)
@@ -11,13 +11,13 @@
 [![](https://img.shields.io/badge/license-GPLv3-ligthgreen.svg)](LICENSE)
 [![](https://img.shields.io/badge/Donate-FFDD00.svg?logo=buymeacoffee&logoColor=black)](https://z15.neocities.org/donate)
 
-## Описание
+## Description
 
-Скрипты, твики, дотфайлы и остальное для настройки Linux (Ubuntu/Debian/Fedora-based) и Termux. Репозиторий и контент собирается "ручками" для собственных нужд.
+Scripts, tweaks, dot files, and the rest for configuring Linux (Ubuntu/Debian/Fedora-based) and Termux. The repository and content are assembled manually for your own needs.
 
-ℹ️ Подробнее про скрипт **Termux-setup** [написано](https://t.me/FieryLinux/257) в моём Telegram канале.
+ℹ️ More information about the Termux-setup script can be found in my Russian-language [channel about my live with Linux](https://t.me/FieryLinux/257) on Telegram.
 
-▶️ Запуск Termux-setup в Termux:
+▶️ Executing the Termux-setup script in Termux:
 
 ```bash
 curl -sL https://clcr.me/Termux-setup | bash
