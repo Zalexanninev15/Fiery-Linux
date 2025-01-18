@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-echo "Termux-setup 2024.nov30"
+echo "Termux-setup v2025"
 echo "Basic Termux setup for Android 14 and above"
 echo "=> Partially relevant also for Android 12 and 13"
 echo "👇👇👇"
@@ -14,6 +14,7 @@ echo "Wait..."
 termux-setup-storage
 sleep 12
 git config --global http.postBuffer 524288000
+echo "cd ./storage/shared" >> /data/data/com.termux/files/usr/etc/termux-login.sh
 echo "Applying the recommended settings for ranger..."
 rm -rf ~/.config/ranger/plugins/ranger_devicons
 git clone "https://github.com/alexanderjeurissen/ranger_devicons.git" ~/.config/ranger/plugins/ranger_devicons && echo "default_linemode devicons" >> $HOME/.config/ranger/rc.conf
@@ -25,5 +26,7 @@ echo "Removing 'garbage' packages..."
 apt autoremove -y && apt autoclean
 echo "Removing 'Hello-message' in Termux"
 touch ~/.hushlogin
-echo "Done!"
+echo "Settings for bash by KNIGHTFALL"
+wget https://raw.githubusercontent.com/knightfall-cs/termux-bashrc/refs/heads/main/bash.bashrc -O /data/data/com.termux/files/usr/etc/bash.bashrc
+echo "Done! Please restart Termux!"
 echo "Run 'termix-style'. Settings by author: colors - 73, font - 6"
