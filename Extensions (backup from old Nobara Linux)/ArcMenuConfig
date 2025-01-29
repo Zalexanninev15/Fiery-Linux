@@ -1,0 +1,24 @@
+[/]
+custom-menu-button-icon-size=21.0
+hide-overview-on-startup=true
+menu-arrow-rise=(false, 6)
+menu-background-color='rgba(28,28,28,0.98)'
+menu-border-color='rgb(63,62,64)'
+menu-button-appearance='Icon'
+menu-button-position-offset=0
+menu-foreground-color='rgb(211,218,227)'
+menu-item-active-bg-color='rgba(228,228,226,0.15)'
+menu-item-active-fg-color='rgb(255,255,255)'
+menu-item-hover-bg-color='rgba(238,238,236,0.08)'
+menu-item-hover-fg-color='rgb(255,255,255)'
+menu-layout='Raven'
+menu-separator-color='rgb(63,62,64)'
+multi-monitor=false
+override-menu-theme=true
+pinned-apps=[{'id': 'org.gnome.Nautilus.desktop'}, {'id': 'org.gnome.Terminal.desktop'}, {'id': 'gnome-extensions prefs arcmenu@arcmenu.com', 'name': 'ArcMenu Settings', 'icon': 'ArcMenu_ArcMenuIcon'}, {'id': 'org.gnome.Calculator.desktop'}, {'id': 'org.gnome.Extensions.desktop'}, {'id': 'com.mattjakeman.ExtensionManager.desktop'}]
+pop-folders-data={'Library Home': 'Домашняя библиотека', 'Utilities': 'Утилиты'}
+prefs-visible-page=0
+recently-installed-apps=['btop.desktop', 'dev.geopjr.Collision.desktop', 'com.wps.Office.wps.desktop', 'com.wps.Office.wpp.desktop', 'com.wps.Office.et.desktop', 'com.wps.Office.pdf.desktop', 'com.wps.Office.prometheus.desktop', 'com.moonlight_stream.Moonlight.desktop', 'org.gnome.design.Emblem.desktop', 'org.gnome.DejaDup.desktop', 'org.exbin.BinEd.desktop', 'io.beekeeperstudio.Studio.desktop', 'com.heroicgameslauncher.hgl.desktop', 'com.wps.Office.desktop', 'moein-dns-changer.desktop', 'com.xnview.XnConvert.desktop', 'org.gnome.gThumb.desktop', 'org.kde.koko.desktop', 'org.videolan.VLC.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.World.PikaBackup.desktop', 'vmware-player.desktop', 'vmware-netcfg.desktop', 'no.mifi.losslesscut.desktop', 'fr.handbrake.ghb.desktop', 'com.warlordsoftwares.formatlab.desktop', 'net.mediaarea.MediaInfo.desktop', 'emoji-picker.desktop', 'org.gnome.seahorse.Application.desktop']
+runner-hotkey=['<Super>space']
+search-entry-border-radius=(true, 25)
+show-activities-button=true
