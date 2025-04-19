@@ -340,7 +340,7 @@ nslookup
 > maxio.com
 ```
 
-Должны отображаться: maxio.com, ns1.maxio.com, ns2.pemsia.com, 13.13.13.1
+Должны отображаться: maxio.com, ns1.maxio.com, ns2.maxio.com, 13.13.13.1
 
 # Настройка DHCP
 
