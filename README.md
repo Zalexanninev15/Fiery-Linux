@@ -20,7 +20,7 @@ Scripts, tweaks, dot files, and the rest for configuring Linux (Ubuntu/Debian/Fe
 ▶️ Executing the Termux-setup script in Termux:
 
 ```bash
-curl -sL https://clcr.me/Termux-setup | bash
+curl -sL https://bit.ly/Termux-setup | bash
 ```
 
 > Ссылка сокращена, т.к. оригинальная была слишком длинной. [Посмотреть оригинальную](https://t.me/FieryLinux/257) можно всё также в посте.
