@@ -117,14 +117,25 @@ type exa &> /dev/null &&
 alias help="bat /home/max/.zshrc | grep 'alias ' | grep -v '#alias'"
 
 # File & directories
-alias exa="exa --icons --grid --all"
+alias l="eza -G -a --color=auto"
+alias lsd="eza -G -a --color=auto -l"
+alias lsh="eza -G -a --color=auto --hyperlink -l"
+alias ls.="ls -d *.* --color=auto"
 alias cat="bat"
 alias cat_help="cat /home/max/.zshrc"
 alias ls="exa"
 alias ext="extract"
+alias mkdirs="mkdir -pv"
 alias text="sudo gnome-text-editor"
 alias count="find . -type f | wc -l"
+alias rd="rm -rf"
+alias ..="cd .."
+alias ..2="cd ../.."
+alias ..3="cd ../../.."
 alias 7z="/mnt/data/LINUX_APPS/7z/7zz"
+alias diff="diff -Naur"
+alias tar="tar -cvf"
+alias untar="tar -xvf"
 alias video="/mnt/data/LINUX_APPS/ffmpeg/bash-video/bash-video.sh" # https://github.com/allen-munsch/bash-video
 # Available operations:
 #  splice <start_time> <end_time> <output_file> - Cut a video segment
@@ -179,7 +190,9 @@ alias cpu="cpufetch"
 alias mesa="inxi -G | grep Mesa"
 alias idate="stat / | grep Birth"
 alias gnome="gnome-shell --version"
-alias rs="sudo dmidecode -t memory | grep Speed" # RAM speed
+alias mem5="ps auxf | sort -nr -k 4 | head -5"
+alias cpu5="ps auxf | sort -nr -k 3 | head -5"
+alias rs="sudo dmidecode -t memory | grep Speed"
 alias ac="lscpu" # All about CPU
 alias wine_os="wine --version"
 alias grub="sudo grub2-mkconfig -o /boot/grub2/grub.cfg"
@@ -209,6 +222,10 @@ alias pu="pip uninstall"
 alias per="pip freeze > requirements.txt"
 alias pir="pi -r requirements.txt"
 
+# APT
+alias inst="sudo apt install"
+alias upg="sudo apt update && sudo apt dist-upgrade"
+
 # Python
 alias py="python"
 # alias newvenv="python -m venv venv && source ./venv/bin/activate"
@@ -232,8 +249,10 @@ alias pylist="echo Окружения Python: && ls ~/anaconda3/envs && echo У�
 
 # Other
 alias uefi="systemctl reboot --firmware-setup"
+alias reboot="sudo /sbin/reboot"
+alias poweroff="sudo /sbin/poweroff"
 alias end="exit"
-alias his="history -i | grep"
+alias hgrep="history -i | grep"
 alias cls="clear"
 
 ___MY_VMOPTIONS_SHELL_FILE="${HOME}/.jetbrains.vmoptions.sh"; if [ -f "${___MY_VMOPTIONS_SHELL_FILE}" ]; then . "${___MY_VMOPTIONS_SHELL_FILE}"; fi
